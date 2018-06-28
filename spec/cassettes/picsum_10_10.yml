@@ -1,0 +1,237 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://picsum.photos/10/10/?random
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Expect:
+      - ''
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Thu, 28 Jun 2018 21:59:39 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Location:
+      - "/10/10/?image=248"
+      Vary:
+      - Accept
+      X-Beluga-Cache-Status:
+      - Miss
+      X-Beluga-Document:
+      - '134517132967552875205061749237587549195'
+      X-Beluga-Node:
+      - '35'
+      X-Beluga-Record:
+      - 340d40e9999c21a68f220615fc31359b0a1835f8
+      X-Beluga-Response-Time:
+      - 71 ms
+      X-Beluga-Status:
+      - '000'
+      X-Beluga-Trace:
+      - 5917b503-0abb-47e7-9158-c66ba2f77682
+      X-Powered-By:
+      - Express
+      Server:
+      - BelugaCDN/v2.40.6
+      X-Beluga-Response-Time-X:
+      - 0.071 sec
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 28 Jun 2018 21:59:39 GMT
+- request:
+    method: get
+    uri: https://picsum.photos/10/10/?image=248
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 28 Jun 2018 21:59:39 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '602'
+      Last-Modified:
+      - Fri, 22 Jun 2018 11:31:12 GMT
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Cache-Control:
+      - public, max-age=604800
+      Etag:
+      - W/"25a-66811d1d"
+      Server:
+      - BelugaCDN/v2.40.6
+      X-Beluga-Cache-Status:
+      - Hit (1)
+      X-Beluga-Trace:
+      - 326834ff-5d3d-429d-ad06-0329d9036c8c
+      X-Beluga-Record:
+      - e8839ed4fa72aa7f995c4c3cb1f93dd31e40b05d
+      X-Beluga-Node:
+      - '35'
+      X-Beluga-Status:
+      - '003'
+      X-Beluga-Response-Time:
+      - 0 ms
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Beluga-Response-Time-X:
+      - 0.004 sec
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        /9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQQG/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/aAAwDAQACEAMQAAABfkyy5kf/xAAaEAEAAwADAAAAAAAAAAAAAAABBAURAhIU/9oACAEBAAEFAudj0WXN2xX1i5//xAAXEQEBAQEAAAAAAAAAAAAAAAABAgAR/9oACAEDAQE/AZgV7v/EABYRAQEBAAAAAAAAAAAAAAAAAAECAP/aAAgBAgEBPwGrQN//xAAdEAACAgEFAAAAAAAAAAAAAAAAAQIRMQMyM1GR/9oACAEBAAY/AlCfL0sG3S9ZFW6Mn//EABkQAQEBAQEBAAAAAAAAAAAAAAERACGBkf/aAAgBAQABPyGumkA+vdWjmjmBBy6J193/2gAMAwEAAgADAAAAEDP/xAAWEQADAAAAAAAAAAAAAAAAAAAAAUH/2gAIAQMBAT8QUEH/xAAWEQEBAQAAAAAAAAAAAAAAAAABAEH/2gAIAQIBAT8QQDb/xAAbEAEAAgIDAAAAAAAAAAAAAAABABExQSFhcf/aAAgBAQABPxBzG6BBq0Ws86hDALTnI7MNCB9J0zNp/9k=
+    http_version: 
+  recorded_at: Thu, 28 Jun 2018 21:59:39 GMT
+- request:
+    method: get
+    uri: https://picsum.photos/10/10/?random
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Expect:
+      - ''
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Thu, 28 Jun 2018 22:00:02 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Location:
+      - "/10/10/?image=416"
+      Vary:
+      - Accept
+      X-Beluga-Cache-Status:
+      - Miss
+      X-Beluga-Document:
+      - '134517132967552875205061749237587549195'
+      X-Beluga-Node:
+      - '35'
+      X-Beluga-Record:
+      - 340d40e9999c21a68f220615fc31359b0a1835f8
+      X-Beluga-Response-Time:
+      - 157 ms
+      X-Beluga-Status:
+      - '000'
+      X-Beluga-Trace:
+      - b5ec5363-afb3-4e4e-b301-f6d6db6759bc
+      X-Powered-By:
+      - Express
+      Server:
+      - BelugaCDN/v2.40.6
+      X-Beluga-Response-Time-X:
+      - 0.158 sec
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 28 Jun 2018 22:00:02 GMT
+- request:
+    method: get
+    uri: https://picsum.photos/10/10/?image=416
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 28 Jun 2018 22:00:02 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '591'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=604800
+      Etag:
+      - W/"24f-b1346107"
+      X-Beluga-Cache-Status:
+      - Hit (1)
+      X-Beluga-Node:
+      - '35'
+      X-Beluga-Record:
+      - d2ca23d693015ebcbbedcca49b3439c32e238d30
+      X-Beluga-Response-Time:
+      - 292 ms
+      X-Beluga-Status:
+      - '003'
+      X-Beluga-Trace:
+      - de94c7c6-fc21-43c3-9482-9639889d8803
+      X-Powered-By:
+      - Express
+      Server:
+      - BelugaCDN/v2.40.6
+      X-Beluga-Response-Time-X:
+      - 0.297 sec
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        /9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFB//EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAW6WQDD/AP/EABoQAQACAwEAAAAAAAAAAAAAAAEABAIFERT/2gAIAQEAAQUCq7Onk+yrFSdZ/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQBB/9oACAEDAQE/AQDL/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAgEBPwGvT//EAB0QAAECBwAAAAAAAAAAAAAAAAABAwIREiExMnH/2gAIAQEABj8CpRtyfDSIsZP/xAAbEAACAgMBAAAAAAAAAAAAAAAAARFxIWGBkf/aAAgBAQABPyFOtyDkw9cJiTVG56f/2gAMAwEAAgADAAAAEMf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAMf/aAAgBAwEBPxCkf//EABYRAQEBAAAAAAAAAAAAAAAAAAEAMf/aAAgBAgEBPxBXFf/EABwQAAMAAQUAAAAAAAAAAAAAAAABESExQZGh4f/aAAgBAQABPxBGXF0XKZayjDi3sWM2m6D9Uf/Z
+    http_version: 
+  recorded_at: Thu, 28 Jun 2018 22:00:02 GMT
+recorded_with: VCR 4.0.0

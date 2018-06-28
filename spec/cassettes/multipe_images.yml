@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://example.com/images
+    body:
+      encoding: UTF-8
+      string: '[{"type":1,"size":1,"content_type":"jpeg","data":"base64_encoded","orientation":1},{"type":2,"size":2,"content_type":"jpeg","data":"base64_encoded","orientation":2},{"type":3,"size":3,"content_type":"jpeg","data":"base64_encoded","orientation":3}]'
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - max-age=604800
+      Content-Type:
+      - text/html
+      Date:
+      - Thu, 28 Jun 2018 22:43:27 GMT
+      Expires:
+      - Thu, 05 Jul 2018 22:43:27 GMT
+      Server:
+      - EOS (vny006/0450)
+      Content-Length:
+      - '345'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!DOCTYPE html PUBLIC
+        \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n         \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n\t<head>\n\t\t<title>404
+        - Not Found</title>\n\t</head>\n\t<body>\n\t\t<h1>404 - Not Found</h1>\n\t</body>\n</html>\n"
+    http_version: 
+  recorded_at: Thu, 28 Jun 2018 22:43:27 GMT
+recorded_with: VCR 4.0.0
